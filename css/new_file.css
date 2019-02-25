@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.screen{
+	width: 500px;
+	height: 100vh;
+	margin: 0 auto;
+	background: rgba(0,255,255,0.5);
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+	transition: all 0.5s;
+}
+.footer{
+	width: 500px;
+	height: 100px;
+	background: url(../img/di.jpg)no-repeat center/100% 100%;
+	position: absolute;
+	bottom: 0;
+	z-index: 111;
+}
+.bird{
+	width: 50px;
+	height: 30px;
+	background: url(../img/bird.png)no-repeat center/100% 100%;
+	position: absolute;
+	top: 200px;
+	margin-left: 200px;
+}
+.bird.init{
+	transform: scale(2);
+	
+}
+.Conduit1,.Conduit2{
+	position: absolute;
+	left: 90%;
+	height: 260px;
+	width: 30px;
+}
+.Conduit1{
+	background: url(../img/guan1.jpg)no-repeat 100% 100%;
+	top: 0;
+}
+.Conduit2{
+	background: url(../img/guan2.jpg)no-repeat 100% 100%;
+	bottom: 0;
+}
+.score{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	height: 30px;
+	width: 30px;
+	background: #fff;
+	font-size: 20px;
+	border-radius: 3px;
+}
